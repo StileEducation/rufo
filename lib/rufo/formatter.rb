@@ -5,7 +5,7 @@ require "ripper"
 class Rufo::Formatter
   include Rufo::Settings
 
-  INDENT_SIZE = 2
+  INDENT_SIZE = 4
 
   attr_reader :squiggly_flag
 
